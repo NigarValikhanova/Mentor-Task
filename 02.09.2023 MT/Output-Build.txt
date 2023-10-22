@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: 02.09.2023 MT, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>02.09.2023 MT -> C:\Users\Nigar\source\repos\02.09.2023 MT\bin\Debug\net6.0\02.09.2023 MT.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 12:36 PM and took 00.509 seconds ==========

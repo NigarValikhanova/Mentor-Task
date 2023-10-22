@@ -1,0 +1,15 @@
+C:\Users\Nigar\source\repos\30.09.2023 MT\bin\Debug\net7.0\30.09.2023 MT.exe
+C:\Users\Nigar\source\repos\30.09.2023 MT\bin\Debug\net7.0\30.09.2023 MT.deps.json
+C:\Users\Nigar\source\repos\30.09.2023 MT\bin\Debug\net7.0\30.09.2023 MT.runtimeconfig.json
+C:\Users\Nigar\source\repos\30.09.2023 MT\bin\Debug\net7.0\30.09.2023 MT.dll
+C:\Users\Nigar\source\repos\30.09.2023 MT\bin\Debug\net7.0\30.09.2023 MT.pdb
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.csproj.AssemblyReference.cache
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.AssemblyInfoInputs.cache
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.AssemblyInfo.cs
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.csproj.CoreCompileInputs.cache
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.dll
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\refint\30.09.2023 MT.dll
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.pdb
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\30.09.2023 MT.genruntimeconfig.cache
+C:\Users\Nigar\source\repos\30.09.2023 MT\obj\Debug\net7.0\ref\30.09.2023 MT.dll

@@ -1,0 +1,146 @@
+create table City(
+ID int Primary Key,
+[Name] nvarchar (50)
+)
+insert into City (ID, [Name])
+Values (1, 'New York'),
+(2, 'Baku'),
+(3, 'Moscow'),
+(4, 'New Orleans'),
+(5, 'Tbilisi'),
+(6, 'Ankara'),
+(7, 'Pekin')
+
+create table Country(
+ID int Primary Key,
+[Name] nvarchar (50)
+)
+insert into Country (ID, [Name])
+Values (1, 'USA'),
+(2, 'Azerbaijan'),
+(3, 'Russia'),
+(4, 'USA'),
+(5, 'Georgia'),
+(6, 'Turkey'),
+(7, 'Japan')
+
+
+
+create table Payment(
+ID int Primary Key,
+Payment int
+)
+insert into Payment (ID, Payment)
+Values (1, 50000),
+(2, 20000),
+(3, 30000),
+(4, 40000),
+(5, 10000),
+(6, 60000),
+(7, 70000)
+
+create table Customer(
+ID int Primary Key,
+FirstName nvarchar(50),
+LastName nvarchar(50)
+)
+insert into Customer (ID, FirstName, LastName)
+Values (1, 'XXXX', 'XXXXov'),
+(2, 'YYYY', 'YYYYov'),
+(3, 'ZZZZ', 'ZZZZov'),
+(4, 'EEEE', 'EEEEov'),
+(5, 'MMMM', 'MMMMov'),
+(6, 'NNNN', 'NNNNov'),
+(7, 'RRRR', 'RRRRov')
+
+Select Payment.Payment, Customer.FirstName, Customer.LastName from Payment  join Customer on Payment.Id = Customer.Id
+
+create table Rental(
+ID int Primary Key,
+Rent int
+)
+insert into Rental (ID, Rent)
+Values (1, 850000),
+(2, 360000),
+(3, 730000),
+(4, 640000),
+(5, 910000),
+(6, 630000),
+(7, 270000)
+
+Select Rental.Rent, Customer.FirstName, Customer.LastName from Rental  join Customer on Rental.Id = Customer.Id
+
+
+create table Cities(
+ID int Primary Key,
+CityName nvarchar (50),
+People int
+)
+insert into Cities (ID, CityName, People)
+Values (1, 'New York', 20000),
+(2, 'Baku', 50000),
+(3, 'Moscow', 90000),
+(4, 'New Orleans', 40000),
+(5, 'Tbilisi', 23600),
+(6, 'Ankara', 65300),
+(7, 'Pekin', 85230)
+
+create table Countries(
+ID int Primary Key,
+CountryName nvarchar (50),
+Areas int, 
+Letter nvarchar(10)
+)
+insert into Countries (ID, CountryName, Areas, Letter)
+Values (1, 'USA', 63955222, 'AB'),
+(2, 'Azerbaijan', 36582250, 'CB'),
+(3, 'Russia', 1362530, 'SB'),
+(4, 'USA', 63955222, 'LB'),
+(5, 'Georgia', 4523015, 'TB'),
+(6, 'Turkey', 2623364, 'RB'),
+(7, 'Japan', 5523652, 'XB')
+
+Select Cities.CityName, Countries.CountryName, Countries.Areas, Countries.Letter from Countries left join Cities on Cities.Id = Countries.Id
+
+create table Employees(
+ManagerID int,
+FirstName nvarchar(50),
+LastName nvarchar(50)
+)
+insert into Employees(ManagerID, FirstName, LastName)
+Values (1, 'George', 'Orwell'),
+(2, 'Alexander', 'Lukois'),
+(3, 'Martin', 'King'),
+(4, 'Samanta', 'Perkson'),
+(5, 'Rachel', 'Green'),
+(6, 'Monica', 'Geller'),
+(7, 'Phoebe', 'Buffay')
+
+Select *from Employees
+where FirstName like 'Alexander' AND LastName = 'Lukois' AND ManagerID = 2
+
+create table Departament(
+DepartamentName nvarchar(50),
+ManagerID int,
+Position nvarchar(50),
+Salary int)
+
+insert into Departament(DepartamentName, ManagerID, Position, Salary)
+Values ('IT infrastuctures', 1, 'IT developers', 20000),
+('IT infrastuctures', 2, 'IT junior', 10000),
+('IT infrastuctures', 3, 'IT assistant', 23000),
+('IT infrastuctures', 4, 'IT advisor', 30000),
+('IT infrastuctures', 5, 'IT leading', 40000),
+('IT infrastuctures', 6, 'IT senior', 8540520),
+('IT infrastuctures', 7, 'IT manager', 9507000),
+('IT infrastuctures', 8, 'IT head of department', 1502000),
+('Adminstration', 9, 'Facilities', 2000),
+('Adminstration', 10, 'Constructor', 5000),
+('Adminstration', 11, 'Procurment', 6500),
+('Adminstration', 12, 'Logistics', 8700),
+('HR', 13, 'HR Junior', 3020),
+('HR', 14, 'HR Leading', 9360),
+('HR', 15, 'HR Manager', 10210)
+
+Select *from Departament
+where DepartamentName like '%IT%'
