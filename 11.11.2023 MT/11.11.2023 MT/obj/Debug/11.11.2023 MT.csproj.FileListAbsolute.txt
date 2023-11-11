@@ -1,0 +1,10 @@
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\bin\Debug\11.11.2023 MT.exe.config
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\bin\Debug\11.11.2023 MT.exe
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\bin\Debug\11.11.2023 MT.pdb
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\11.11.2023 MT.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\_11._11._2023_MT.Form1.resources
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\_11._11._2023_MT.Properties.Resources.resources
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\11.11.2023 MT.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\11.11.2023 MT.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\11.11.2023 MT.exe
+C:\Users\asus\source\repos\11.11.2023 MT\11.11.2023 MT\obj\Debug\11.11.2023 MT.pdb
