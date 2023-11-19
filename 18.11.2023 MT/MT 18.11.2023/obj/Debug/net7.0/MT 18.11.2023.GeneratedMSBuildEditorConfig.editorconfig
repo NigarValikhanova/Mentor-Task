@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net6.0
+build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = _02._09._2023_MT
-build_property.ProjectDir = C:\Users\asus\Desktop\Learning Back End\Mentor-Task\02.09.2023 MT\
+build_property.RootNamespace = MT_18._11._2023
+build_property.ProjectDir = C:\Users\asus\source\repos\MT 18.11.2023\MT 18.11.2023\
